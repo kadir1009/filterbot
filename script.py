@@ -1,51 +1,51 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>Merhaba {},
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+Ben birçok yeteneğe sahip gelişmiş bir filtre botuyum!
+Filtreleme kapasitem için pratik sınırlar yok :)
 
-See <i>/help</i> for commands and more details.</b>
+<i>/help</i> komutunu kullanarak daha fazlasını öğrenebilirsiniz.</b>
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i>Filtre botunu kullanmak için yönetici olarak gruba ekleyin. :)</i>
 
 
-<b>Basic Commands;</b>
+<b>Başlangıç Komutları;</b>
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
-
-
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
+/start - Botu başlat!
+/help - Yardım komutu.
+/about - Bot hakkındakiler!
 
 
-<b>Connection Commands;</b>
+<b>Filtre Komutları;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+<code>/add filtre yanıt</code>  -  Filtre eklemek için kullanın.
 
-<code>/connections</code>  -  Manage your connections.
+<code>/del filtre</code>  -  Filtreyi silin.
+
+<code>/delall</code>  -  Tüm filtreleri silin. (Yalnızca grup sahibi!)
+
+<code>/viewfilters</code>  -  Tüm filtreleri listeleyin.
 
 
-<b>Extras;</b>
+<b>Bağlantı Komutları;</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
+<code>/connect groupid</code>  -  Grubunuzu bağlayın. Ayrıca şunu da kullanabilirsiniz:,
+<code>/connect</code> (Grupta).
 
-/id  -  Shows ID information
+<code>/connections</code>  -  Bağlantıları yönetin.
 
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+
+<b>Ekstralar;</b>
+
+/status  -  Botunuzun mevcut durumunu gösterir. (Yalnızca Kimlik Doğrulama Kullanıcısı)
+
+/id  -  Kimlik bilgilerini gösterir.
+
+<code>/info userid</code>  -  Kullanıcı Bilgilerini gösterir. Ayrıntıları için bazı mesajlara yanıt olarak <code>/info</code> kullanın!
 
 
 <b>© @TroJanzHEX</b>
@@ -54,10 +54,10 @@ See <i>/help</i> for commands and more details.</b>
 
     ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Oluşturan :</b> @TroJanzHEX    
 
-⭕️<b>Language :</b> <code>Python3</code>
+⭕️<b>Dil :</b> <code>Python3</code>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+⭕️<b>Kütüphane :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """
